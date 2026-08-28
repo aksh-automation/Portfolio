@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshendra Singh Parmar — AI Automation Consultant</title>
+  <meta name="description" content="Professional portfolio for AI agent development, workflow automation, and practical AI integrations." />
+
+  <!-- OpenGraph Meta -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Akshendra Singh Parmar — AI Automation Consultant" />
+  <meta property="og:description" content="Professional portfolio for AI agent development, workflow automation, and practical AI integrations." />
+
+  <!-- Fonts: Inter & Geist -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=2" />
+</head>
+<body>
+
+  <!-- =======================================================================
+       HEADER / NAVBAR
+       ======================================================================= -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="brand-logo">Akshendra Singh Parmar</a>
+
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+      </nav>
+
+      <div style="display: flex; align-items: center; gap: 1rem;">
+        <button class="nav-cta-btn open-booking-modal">Book a Call</button>
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =======================================================================
+         HERO SECTION
+         ======================================================================= -->
+    <section id="home" class="hero-section" style="border-top: none;">
+      <div class="container">
+        <div class="hero-badge">
+          AI automation consultant for founders and operators
+        </div>
+
+        <h1 class="hero-title">
+          I build AI agents and automation systems that give teams their time back.
+        </h1>
+
+        <p class="hero-description">
+          Custom agents, workflow automations, and AI integrations designed around the way your business actually operates.
+        </p>
+
+        <div class="hero-button-group">
+          <button class="btn-primary open-booking-modal">Book a Call</button>
+          <a href="#projects" class="btn-ghost">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         WHAT I BUILD
+         ======================================================================= -->
+    <section id="about" class="what-i-build-section">
+      <div class="container">
+        <div class="section-header-wrap">
+          <div>
+            <h2 class="section-title">What I build</h2>
+            <p class="section-subtitle">
+              Practical AI systems that remove repetitive work, connect your tools, and help teams move faster without adding headcount.
+            </p>
+          </div>
+        </div>
+
+        <div class="what-i-build-grid">
+          <div class="feature-card">
+            <h3 class="feature-card-title">AI Agent Development</h3>
+            <p class="feature-card-desc">
+              Agents that reason through tasks, call tools, and handle multi-step business workflows.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <h3 class="feature-card-title">Workflow Automation</h3>
+            <p class="feature-card-desc">
+              Automations for ops, sales, support, reporting, onboarding, and internal handoffs.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <h3 class="feature-card-title">Chatbot Integration</h3>
+            <p class="feature-card-desc">
+              Custom assistants connected to your documents, CRM, website, and support channels.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <h3 class="feature-card-title">API &amp; Tool Integrations</h3>
+            <p class="feature-card-desc">
+              Reliable glue between OpenAI, LangChain, n8n, Make, Zapier, CRMs, and databases.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         FEATURED PROJECTS (CLICKABLE, EXPANDABLE & FIXED PLACEMENT)
+         ======================================================================= -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header-wrap">
+          <div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+              A snapshot of the kind of systems I design and ship for operational teams. Click any card to expand pictures &amp; videos in full view.
+            </p>
+          </div>
+          <div>
+            <a href="#projects" class="section-link">View all projects →</a>
+          </div>
+        </div>
+
+        <!-- Dynamic Grid (Populated via data/projects.js) -->
+        <div id="projects-grid" class="projects-grid">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         A SIMPLE BUILD PROCESS
+         ======================================================================= -->
+    <section class="process-section">
+      <div class="container">
+        <div class="section-header-wrap">
+          <div>
+            <h2 class="section-title">A simple build process</h2>
+          </div>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-step-num">01 · Discover</div>
+            <p class="process-step-desc">
+              Map the workflow, data sources, risks, and success metrics before building.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">02 · Design</div>
+            <p class="process-step-desc">
+              Prototype the agent flow, tool calls, guardrails, and human handoff points.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">03 · Build</div>
+            <p class="process-step-desc">
+              Ship the automation with clean integrations, logging, and maintainable prompts.
+            </p>
+          </div>
+
+          <div class="process-card">
+            <div class="process-step-num">04 · Deploy</div>
+            <p class="process-step-desc">
+              Launch, monitor, refine, and support the system as real users rely on it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         TOOLS & TECHNOLOGIES
+         ======================================================================= -->
+    <section class="tools-section">
+      <div class="container">
+        <h2 class="tools-title">Tools &amp; Technologies</h2>
+        <div class="tools-pills-wrap">
+          <span class="tool-pill">n8n</span>
+          <span class="tool-pill">Make.com</span>
+          <span class="tool-pill">Gemini</span>
+          <span class="tool-pill">OpenAI</span>
+          <span class="tool-pill">Claude</span>
+          <span class="tool-pill">Google Sheets</span>
+          <span class="tool-pill">Airtable</span>
+          <span class="tool-pill">Gmail</span>
+          <span class="tool-pill">Tally</span>
+          <span class="tool-pill">Cal.com</span>
+          <span class="tool-pill">Telegram</span>
+          <span class="tool-pill">APIs &amp; Webhook</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         CTA BANNER
+         ======================================================================= -->
+    <section class="cta-banner-section">
+      <div class="container">
+        <div class="cta-banner-container">
+          <h2 class="cta-banner-title">Have a workflow that should run itself?</h2>
+          <p class="cta-banner-subtitle">
+            Tell me what is repetitive, messy, or slow. I’ll help turn it into a reliable AI-assisted system.
+          </p>
+          <button class="btn-primary open-booking-modal">Book a Call</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =======================================================================
+       FOOTER
+       ======================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand-title">Akshendra Singh Parmar</div>
+          <p class="footer-brand-desc">
+            AI agents, workflow automation, and intelligent systems for modern businesses.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <a href="mailto:akshendrasingh.automation@gmail.com" class="footer-link">Email</a>
+          <a href="https://www.linkedin.com/in/akshendra-singh-parmar" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn</a>
+          <a href="https://www.instagram.com/aksh.automates/" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Akshendra Singh Parmar. Built for practical AI systems.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =======================================================================
+       MEDIA LIGHTBOX (FOR PICTURES & VIDEOS EXPAND VIEW)
+       ======================================================================= -->
+  <div id="media-lightbox" class="media-lightbox-backdrop" role="dialog" aria-modal="true" aria-label="Project Media Expander">
+    <div class="media-lightbox-container">
+      <button id="lightbox-close-btn" class="lightbox-close-btn" aria-label="Close media preview">✕</button>
+
+      <!-- Media Viewer (Image or Video) -->
+      <div id="lightbox-viewer" class="lightbox-media-viewer">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <!-- Multi-Media Gallery Thumbnails Navigation -->
+      <div id="lightbox-gallery-nav" class="lightbox-gallery-nav" style="display: none;"></div>
+
+      <!-- Details -->
+      <div class="lightbox-details-wrap">
+        <div id="lightbox-badge" class="lightbox-project-badge">Category</div>
+        <h3 id="lightbox-title" class="lightbox-project-title">Project Title</h3>
+
+        <div class="lightbox-info-block">
+          <h4>Problem</h4>
+          <p id="lightbox-problem"></p>
+        </div>
+
+        <div class="lightbox-info-block">
+          <h4>Solution</h4>
+          <p id="lightbox-solution"></p>
+        </div>
+
+        <div class="lightbox-info-block">
+          <h4>Result</h4>
+          <p id="lightbox-result"></p>
+        </div>
+
+        <div id="lightbox-tools" class="lightbox-tools-wrap" aria-label="Tools used"></div>
+
+        <div class="lightbox-footer-actions">
+          <a id="lightbox-project-link" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary" style="display: none;">
+            Visit Live Project ↗
+          </a>
+          <button class="btn-ghost open-booking-modal" onclick="closeMediaLightbox();">
+            Discuss Similar Project
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =======================================================================
+       BOOK A CALL / CAL.COM MODAL
+       ======================================================================= -->
+  <div id="booking-modal" class="booking-modal-backdrop" role="dialog" aria-modal="true" aria-label="Book a Call">
+    <div class="booking-modal-card booking-modal-cal">
+      <button id="booking-modal-close" class="lightbox-close-btn" aria-label="Close modal">✕</button>
+      <!-- Cal.com Live Embed -->
+      <iframe
+        id="cal-iframe"
+        src="https://cal.com/aksh.automates/project-consultation?embed=true&theme=dark"
+        style="width:100%; height:100%; border:none; border-radius: 12px;"
+        loading="lazy"
+        title="Book a Project Consultation"
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="data/projects.js"></script>
+  <script src="script.js?v=2"></script>
+</body>
+</html>
